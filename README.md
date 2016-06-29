@@ -1,7 +1,7 @@
 # greenhouse2016
 
-for server script:/n
-Install these or create your own package.json/n
-npm install johnny-five/n
-npm install ble-bean/n
-npm install bean-io/n
+for server script:<br>
+Install these or create your own package.json<br>
+npm install johnny-five<br>
+npm install ble-bean<br>
+npm install bean-io<br>
