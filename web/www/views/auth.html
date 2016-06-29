@@ -1,0 +1,16 @@
+<ion-view title="Identification" hide-back-button="true">
+  <ion-content padding="true">
+            <img class="logo-login" src="/img/greenmonitor.svg"
+
+    <form name="authForm" ng-controller="AuthCtrl" novalidate>
+      <label class="item item-input">
+        <input type="number"
+               placeholder="5-digit ID"
+               ng-model="authForm.accountId"
+               ng-pattern="regex"
+               ng-change="didInputAccountId()"
+               ng-disabled="isAuthenticating">
+      </label>
+    </form>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,18 @@
+<ion-view hide-back-button="true" title="Select Action"  class="dashboard">
+  <ion-content overflow-scroll="true"  padding="true">
+ 
+      <p>last updated {{time| date:'dd.MM HH:mm'}} 
+          </p>
+
+      <div class="row responsive-lg">
+          <div id="temperature" class="col col-50 metrics">
+              <temp-chart class="chart" temps="temps"></d-chart>
+          </div>
+          <div id="temperature" class="col col-50 metrics"> 
+              <water-chart class="chart" water="water"></d-chart>
+          </div>          
+      </div>            
+      <nvd3 options="options" data="data"></nvd3>
+      
+  </ion-content>
+</ion-view>
