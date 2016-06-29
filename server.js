@@ -1,6 +1,6 @@
 
 var Firebase = require('firebase');
-var rootRef = new Firebase('https://greenmonitor.firebaseio.com/');
+var rootRef = new Firebase('yourfirebase');
 var five = require("johnny-five");  
 
 var beanio = require("bean-io");
