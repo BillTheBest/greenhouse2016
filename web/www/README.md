@@ -1,3 +1,4 @@
+If you want to use Ionic follow these instructions:
 This is an addon starter template for the [Ionic Framework](http://ionicframework.com/).
 
 ## How to use this template
